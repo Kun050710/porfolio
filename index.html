@@ -1,33 +1,137 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/style.css">
         <link rel="shorcut icon" href="assets/img/icon.png">
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css'>
         <title>Mi porfolio</title>
     </head>
 
     <body>
+
+        <main class="l-main">
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h2 class="home__title"><span>Hola</span><br>:)</h2>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Desliza la página</a>
+                    </div>
+                    <div class="home__scroll">
+                        <a></a>
+                    </div>
+                    <div class="home__scroll">
+                        <a></a>
+                    </div>
+            </section>
+
+        <section class="about section" id="about">
+            <h2 class="section-title">Yo</h2>
+            </div>
+                <div class="about__container bd-grid">
+                        <p>
+                            Hola, yo me llamo Rubén, tengo 13 años y mi pasión es programar.
+                            Me gusta pensar las cosas como si las estuviera programando, es 
+                            divertido verlo todo como si fueran fragmentos de mi código las 
+                            cosas que vivo y hago cada día. También me gusta hacer música, he 
+                            subido una que otra canción a spotify, pero prefiero escuchar la 
+                            que ha creado otra gente. No tengo colores favoritos, numeros favoritos, 
+                            animales favoritos, nada.
+                        </p>
+                        <p>
+                            Lo único en lo que tengo favoritismos es en la música que escucho, normalmente
+                            consumo el género Phonk, aunque tambien me gusta la música de "j^p^n" (productor
+                            de música en spotify).
+                            Creo que todo lo que pienso y hago es mucho para mi edad, la gente suele
+                            decirme eso, aunque no importa. Según conocidos y familiares, mi conocimiento 
+                            en informática es alto comparado con el de bastante gente adulta. A lo mejor
+                            es que he madurado antes de tiempo, o me estoy imaginando cosas, no se, realmente
+                            no importa, no a mi.
+                        </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Habilidades de programación</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Desarrollo</h3>
+                    <span class="skills__name">HTML</span>
+                    <span class="skills__name">Python</span>
+                    <span class="skills__name">JavaScript</span>
+                    <span class="skills__name">GodotEngine</span> 
+                    <span class="skills__name">C# y C++</span> 
+                    <span class="skills__name">Godot</span> 
+                </div>
+                <div class="skills__img">
+                    <img src="assets/img/diploma.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        
+        <section class="creations section" id="creations">
+            <h2 class="section-title">Mis creaciones</h2>
+
+            <div class="creations__container bd-grid">
+
+              <h2 class="about__subtitle">Flipper Repo</h2>
+                    <p class="about__text">
+                        Como dice el nombre, una de mis creaciones es un repositorio de github en el que
+                        subo mis programas para el dispositivo Flipper Zero (hacking y pentesting). Estos
+                        programas están hechos en los lenguajes de programación C# y C++.
+
+                <h2 class="about__subtitle">Minibot</h2>
+                    <p class="about__text">
+                        Este es un bot de discord con comandos moderativos y administrativos para cualquier
+                        servidor de discord. También trae comandos de música, economía y ocio.
+
+                <h2 class="about__subtitle">DarkMCBot</h2>
+                    <p class="about__text">
+                        El DarkMCBot es una "inteligencia artificial" para el juego Minecraft. Este bot lo 
+                        que hará es, principalmente, recibir comandos del dueño. Por ejemplo, el comando .follow
+                        lo que le dice al bot es que debe seguir al dueño. El comando .defend le da la 
+                        instrucción de reducir a cualquier entidad que ataque al dueño. Este bot sigue en
+                        continuo desarrolo y no está accesible al público.
+                </div>
+            </div>
+        </section>
+
+
+
         <footer class="footer section">
             <div class="footer__container bd-grid">
                 <div class="footer__data">
-                    <h2 class="footer__title">Menú</h2> <!-- This is in the Footer so that people can navigate to different pages they wanna know more about -->
+                    <h2 class="footer__title">Secciones de esta web</h2>
                     <ul>
-                        <li><a href="#home" class="footer__link">Página principal</a></li>
+                        <li><a href="#home" class="footer__link">Inicio</a></li>
                         <li><a href="#about" class="footer__link">Sobre mí</a></li>
-                        <li><a href="#skills" class="footer__link">Habilidades</a></li>
-                        <li><a href="#creations" class="footer__link">Creaciones</a></li>
+                        <li><a href="#skills" class="footer__link">Habilidades de programación</a></li>
+                        <li><a href="#creations" class="footer__link">Mis creaciones</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer__data">
-                    <h2 class="footer__title">Mis redes sociales</h2> <!-- This is not necessary but you will see it in the footer, this is normally used by support websites to put their email and contacts in case you wanna contact them:) -->
-                    <a href="https://www.youtube.com/channel/UCvjmo2DhbZax6FpaxfruRww" class="footer__social"><i class='bx bxl-youtube' ></i></a> <!-- You can always change Youtube to other socials that you have, like Discord -->
-                    <a href="https://open.spotify.com/user/31tsac77cbimubgnl2dzjoivnsie?si=13ad126389624236" class="footer__social"><i class='bx bxl-spotify' ></i></a> <!-- You can always change Spotify to other socials that you have, like Facebook or Twitch -->
-                    <a href="https://twitter.com/kun050710" class="footer__social"><i class='bx bxl-twitter' ></i></a> <!-- You can always change Instagram to other socials that you have, like Linkedin or Twitter-->
+                    <h2 class="footer__title">Aquí puedes encontrarme</h2>
+                    <a href="https://www.youtube.com/channel/UCvjmo2DhbZax6FpaxfruRww" class="footer__social"><i class='bx bxl-youtube' ></i></a>
+                    <a href="https://open.spotify.com/user/31tsac77cbimubgnl2dzjoivnsie?si=13ad126389624236" class="footer__social"><i class='bx bxl-spotify' ></i></a>
+                    <a href="https://twitter.com/kun050710" class="footer__social"><i class='bx bxl-twitter' ></i></a>
                     <a href="https://discord.io/miniserver" class="footer__social"><i class='bx bxl-discord' ></i></a>
+                    <a href="https://github.com/Kun050710" class="footer__social"><i class='bx bxl-github' ></i></a>
                 </div>
+                
+                <div class="footer__data">
+                    <h6>
+                    Web creada por Kun050710
+                    https://kun050710.github.com/porfolio
+                    </h6>    
+                </div>
+                
             </div>
+
         </footer>
+
     </body>
 </html>
